@@ -1,0 +1,49 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+#navbar {
+ background-color: darkcyan;
+ display: flex;
+ justify-content:space-around
+ 
+}
+#navbar a {
+    color: yellow;
+    font-family:sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:3px 3px  3px red
+}
+#navbar ul {
+    display: flex;
+    margin-top: 2rem;
+    height: 2rem;
+    gap: 2rem;
+    list-style: none    
+}
+#navbar img {
+    width: 12rem;
+}
+#cartwidget img {
+   width: 40px;
+   height: 40px;
+}
+#cartwidget{
+    display: flex;
+    height: 55px;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+#itemlistcontainer{
+    background-color: skyblue;
+    height: 5rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+}
