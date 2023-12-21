@@ -5,7 +5,7 @@ import "./NavBar.css"
 const NavBar = () => {
 
     return(
-        <div id = "navbar">
+        <nav className = "navbar">
             <img src="/img/funkopopicon.png" alt="icono de la tienda" />
           <ul>
             <li><a href="">Villanos Marvel</a></li>
@@ -13,7 +13,7 @@ const NavBar = () => {
             <li><a href="">Harry potter</a></li>
           </ul>
           <CartWidget/>
-        </div>
+        </nav>
     )
 }
 

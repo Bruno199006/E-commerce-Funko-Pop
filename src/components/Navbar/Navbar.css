@@ -2,48 +2,43 @@
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
 
 
-#navbar {
- background-color: darkcyan;
+.navbar {
+ background-image:url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1c2abda7-b69f-4449-b3ce-7685adb8a91e/funko-reveals-a-new-hooded-luke-skywalker-pop-figure-from-the-mandalorian.jpg");
  display: flex;
- justify-content:space-around
+ justify-content:center;
+ flex-wrap: wrap;
+ background-size: cover;
+ background-position:center;
  
 }
-#navbar a {
+.navbar a {
     color: yellow;
     font-family:sans-serif;
     text-decoration: none;
     font-weight: bold;
     text-shadow:3px 3px  3px red
 }
-#navbar ul {
+.navbar ul {
     display: flex;
-    margin-top: 2rem;
+    margin:3rem 25rem;
     height: 2rem;
-    gap: 2rem;
+    gap: 5rem;
     list-style: none    
 }
-#navbar img {
-    width: 12rem;
+.navbar img {
+    width: 8rem;
+    height: 7rem;
 }
-#cartwidget img {
+.cartwidget img {
    width: 40px;
    height: 40px;
 }
-#cartwidget{
+.cartwidget{
     display: flex;
     height: 55px;
     margin-top: 1rem;
     gap: 1rem;
-}
-#itemlistcontainer{
-    background-color: skyblue;
-    height: 5rem;
-    font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 3rem;
 }

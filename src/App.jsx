@@ -1,7 +1,7 @@
 
-import ItemListContainer from "./ItemListContainer"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import NavBar from "./components/Navbar/NavBar"
-import './App.css'
+
 
 function App() {
 
@@ -9,8 +9,7 @@ function App() {
     
     <div id = "app">
     < NavBar />
-    
-    <ItemListContainer saludo = "prop enviado desde item list container"/>
+    <ItemListContainer/>
     </div>
     
    

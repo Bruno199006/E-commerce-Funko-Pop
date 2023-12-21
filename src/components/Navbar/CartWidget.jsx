@@ -4,7 +4,7 @@
 const CartWidget = () => {
 
     return (
-        <div id = "cartwidget">
+        <div className = "cartwidget">
          <img src="/img/cart.png" alt="imagen icono del carrito de compras" />
          <p>
             0
