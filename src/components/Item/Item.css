@@ -7,13 +7,15 @@
   flex-direction: column;
   font-size: 1.2rem;
   font-family:sans-serif;
-  box-shadow: 2px 2px 2px lightgreen;
-  background-image: url("https://t4.ftcdn.net/jpg/02/87/11/31/360_F_287113142_8XLkz9kGNKWdvazBEgl8GoymDG5YBsa9.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  box-shadow: 2px 2px 2px red;
+  background-color: white;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.5rem;
+  
 }
 .card p {
     margin: 2rem auto;
+    color: black;
 }
 .card button{
     width: 10rem;
@@ -22,6 +24,8 @@
     background-color: yellow;
     box-shadow:5px 5px 5px red;
     border-radius: 4rem;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1rem;
     
     
 }
