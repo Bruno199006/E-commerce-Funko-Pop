@@ -1,16 +1,19 @@
 import CartWidget from "./CartWidget"
 import "./NavBar.css"
+import { Link } from "react-router-dom"
 
 
 const NavBar = () => {
 
     return(
         <nav className = "navbar">
+          <Link to="/">
             <img src="/img/funkopopicon.png" alt="icono de la tienda" />
+          </Link>
           <ul>
-            <li><a href="">Villanos Marvel</a></li>
-            <li><a href="">Superheroes Marvel</a></li>
-            <li><a href="">Harry potter</a></li>
+            <li><Link to="/categoria/superheroesmarvel">Super Heroes Marvel</Link></li>
+            <li><Link to="/categoria/villanosmarvel">villanos Marvel</Link></li>
+            <li><Link to="/categoria/harrypotter">Harry Potter</Link></li>
           </ul>
           <CartWidget/>
         </nav>

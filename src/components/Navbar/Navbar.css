@@ -6,32 +6,33 @@
 
 
 .navbar {
- background-image:url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1c2abda7-b69f-4449-b3ce-7685adb8a91e/funko-reveals-a-new-hooded-luke-skywalker-pop-figure-from-the-mandalorian.jpg");
+ background:linear-gradient(to right, orange, lightyellow);
  display: flex;
  justify-content:center;
+ background-size:cover;
  flex-wrap: wrap;
- background-size: cover;
  background-position:center;
  background-repeat: no-repeat;
- background-size: cover;
- 
 }
 .navbar a {
-    color: yellow;
-    font-family:sans-serif;
+    color: red;
+    font-family: 'Comic Neue', cursive;
     text-decoration: none;
-    font-weight: bold;
-    text-shadow:3px 3px  3px red
+    font-weight:bolder;
+    text-shadow:5px 5px 5px white;
+    font-size: 1.5rem;
+    
 }
 .navbar ul {
     display: flex;
+    justify-content: center;
     margin:3rem 25rem;
     height: 2rem;
     gap: 5rem;
     list-style: none    
 }
 .navbar img {
-    width: 8rem;
+    width: 10rem;
     height: 7rem;
 }
 .cartwidget img {
