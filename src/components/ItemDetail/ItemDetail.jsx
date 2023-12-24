@@ -3,6 +3,8 @@ import "./ItemDetail.css"
 
 const ItemDetail = ({producto}) =>{
     return(
+      <div className="info">
+        
       <div className="detalle">
         <div>
         <img src={producto.imagen} alt="" />
@@ -15,6 +17,7 @@ const ItemDetail = ({producto}) =>{
         
         <p>stock: {producto.stock}</p>
       </div>
+    </div>
     )
 }
 export default ItemDetail

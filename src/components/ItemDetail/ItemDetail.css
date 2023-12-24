@@ -23,3 +23,11 @@
     color: white;
     text-shadow: 5px 5px 5px black;
 }
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   background-image: url("https://freerangestock.com/sample/144286/abstract-pop-art-inspired-background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}

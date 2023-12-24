@@ -29,3 +29,9 @@
     
     
 }
+.card a {
+  text-decoration: none;
+  color: red;
+  font-family:'Comic Neue', cursive;
+
+}
