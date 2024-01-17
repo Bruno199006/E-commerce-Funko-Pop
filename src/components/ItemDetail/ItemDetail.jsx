@@ -1,4 +1,5 @@
-
+import "../ItemCount/ItemCount"
+import ItemCount from "../ItemCount/ItemCount"
 import "./ItemDetail.css"
 
 const ItemDetail = ({producto}) =>{
@@ -17,7 +18,9 @@ const ItemDetail = ({producto}) =>{
         
         <p>stock: {producto.stock}</p>
       </div>
+      <ItemCount stock={producto.stock}/>
     </div>
+    
     )
 }
 export default ItemDetail

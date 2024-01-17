@@ -4,6 +4,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailCont
 import NavBar from "./components/Navbar/NavBar"
 import { useEffect, useState } from "react"
 import { BrowserRouter,Routes,Route, Navigate} from "react-router-dom"
+import ItemCount from "./components/ItemCount/ItemCount.jsx"
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Route path="/detalle/:id" element={<ItemDetailContainer/>}/>
       <Route path="*" element={<Navigate to="/"/>}/>
     </Routes>
+
+  
 
     </BrowserRouter>
   )

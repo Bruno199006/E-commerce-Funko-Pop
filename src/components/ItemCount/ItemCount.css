@@ -1,0 +1,60 @@
+
+.item-count{
+    height: fit-content;
+    margin: 5rem;
+
+    
+}
+.item-container{
+    background-image: url("https://img.freepik.com/free-vector/flat-comic-style-wallpaper_23-2148816310.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem;
+    height: 18rem;
+}
+.controles{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.controles button{
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.controles p {
+    margin: 1.4rem;
+    font-size:2rem;
+}
+.terminar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .terminar:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .terminar:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+
+  
