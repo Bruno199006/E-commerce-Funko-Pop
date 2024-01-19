@@ -33,3 +33,42 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 48.9rem;
 }
+
+
+.ir-carrito{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        background-color: #ff5252;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #000;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        height: fit-content;
+        margin: 10rem 2rem;
+        width: 20rem;
+      }
+      
+      .ir-carrito:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+      }
+      
+      .ir-carrito:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+      }
+      .ir-carrito a{
+        text-decoration: none;
+        color: black;
+      }
+      

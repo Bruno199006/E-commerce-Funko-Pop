@@ -2,15 +2,18 @@
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer.jsx"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer.jsx"
 import NavBar from "./components/Navbar/NavBar"
-import { useEffect, useState } from "react"
+import Carrito from "./components/Carrito/Carrito.jsx"
 import { BrowserRouter,Routes,Route, Navigate} from "react-router-dom"
-import ItemCount from "./components/ItemCount/ItemCount.jsx"
+import { CartProvider } from "./context/CartContext.jsx"
+
 
 
 function App() {
   
   return (
     <BrowserRouter>
+
+    <CartProvider>
 
     < NavBar />
 
@@ -19,10 +22,11 @@ function App() {
       <Route path="/" element={<ItemListContainer/>}/>
       <Route path="/categoria/:categoria" element={<ItemListContainer/>}/> 
       <Route path="/detalle/:id" element={<ItemDetailContainer/>}/>
+      <Route path ="/carrito" element={<Carrito/>}/>
       <Route path="*" element={<Navigate to="/"/>}/>
     </Routes>
 
-  
+    </CartProvider>
 
     </BrowserRouter>
   )

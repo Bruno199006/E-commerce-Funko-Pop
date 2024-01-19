@@ -26,6 +26,8 @@
 .controles p {
     margin: 1.4rem;
     font-size:2rem;
+    color: white;
+    text-shadow: 3px 3px 3px yellow;
 }
 .terminar {
     display: inline-block;
