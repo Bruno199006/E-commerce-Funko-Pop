@@ -42,11 +42,19 @@ const CartProvider = ({children}) =>{
     return carrito.reduce((total, producto)=> total + producto.cantidad, 0)
 
    }
-   console.log(carrito)
+   
+   const borrarCarrito = () =>{
+    setCarrito([])
+   }
+   const borrarProducto = (idProducto) =>{
+     const productosFiltrados = carrito.filter((producto)=>producto.id !== idProducto)
+
+     setCarrito(productosFiltrados)
+   }
 
     return(
 
-      <CartContext.Provider value={{carrito,agregarProducto,totalCantidad}}>
+      <CartContext.Provider value={{carrito,agregarProducto,totalCantidad,borrarCarrito,borrarProducto}}>
 
          {children}
 
