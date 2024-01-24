@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+.carrito-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("https://files.cults3d.com/uploaders/14507778/illustration-file/7df5b3eb-3762-4bcc-ae95-f7ed82dde44d/81789908_621164791810320_9151857919388549120_n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+}
+.carrito-container ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.carrito-container li{
+    text-align: center;
+    background-repeat:no-repeat;
+    background-image: url("https://img.freepik.com/premium-vector/comic-pop-art-template-background_530597-1797.jpg");
+    background-position-y: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}   
+.carrito-container li p{
+     font-size: 1.5rem;
+}
+.carrito-container li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: fit-content;
+    margin: 2rem 4.5rem;
+    width: 10rem;
+    height: 2rem;
+}
+.carrito-container li button:hover{
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+.carrito-container li button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.carrito-container p{
+    margin: 1rem auto;
+}
+.base-carrito{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    gap: 1rem;
+    background-image: url("https://wallpapers.com/images/hd/pop-art-background-ntfnqeqfg5ca6ff4.jpg");
+}
+.base-carrito button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: fit-content;
+    margin: 2rem 2rem;
+    width: 14rem;
+  }
+  
+  .base-carrito button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .base-carrito button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  .base-carrito p{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    flex-wrap: wrap;
+  }
+  .carrito-vacio{
+    background-image: url("https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-FunkoUS-Library/default/dw34674b20/images/funko/blog/20190625_YouTube.jpg?sfrm=jpg");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carrito-vacio h2{
+    justify-content: flex-start;
+    margin: 5rem auto;
+  }
+  .boton-carrito-vacio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: skyblue;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: fit-content;
+    margin: 2rem 2rem;
+    width: 14rem;
+  }
+  .boton-carrito-vacio:hover{
+    background-color: #fff;
+    color: skyblue;
+    border: 2px solid skyblue;
+    box-shadow: 5px 5px 0px skyblue;
+  }
+  .boton-carrito-vacio:active{
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  .boton-carrito-vacio a{
+    text-decoration: none;
+    color: black;
+  }
