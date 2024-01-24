@@ -17,7 +17,7 @@
         }
     };
      return(
-        <div className="item-container">
+      <div className="item-container">
       <div className="item-count">
         <div className="controles">
          <button onClick={restar}>-</button>
