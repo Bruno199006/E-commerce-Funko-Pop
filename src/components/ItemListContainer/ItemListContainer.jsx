@@ -26,7 +26,6 @@ const ItemListContainer = () => {
             
          });
          setProductos(productosDb)
-         console.log(productosDb)
       })
       .catch((error)=>console.log(error))
 

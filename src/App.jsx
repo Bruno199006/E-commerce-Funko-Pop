@@ -26,6 +26,7 @@ function App() {
       <Route path ="/carrito" element={<Carrito/>}/>
       <Route path="*" element={<Navigate to="/"/>}/>
       <Route path="/checkout" element ={<Checkout/>}/>
+      
     </Routes>
 
     </CartProvider>
