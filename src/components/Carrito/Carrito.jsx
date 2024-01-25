@@ -37,6 +37,8 @@ const Carrito = () =>{
       <div className="base-carrito">
          <p>Precio total de compra ${totalPrecio()}</p>
          <button onClick={borrarCarrito}>Eliminar carrito</button>
+         <Link to="/checkout">Continuar Con La Compra</Link>
+      
       </div>
       
       </div>
