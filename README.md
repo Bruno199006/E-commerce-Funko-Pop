@@ -41,3 +41,10 @@ Instalar mi proyecto con npm
  react-router-dom
  sweetalert2
 ```
+
+
+
+## Authors
+
+- [@Bruno Branda](https://github.com/Bruno199006)
+
