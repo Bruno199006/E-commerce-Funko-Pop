@@ -1,10 +1,11 @@
 import React, { useContext, useState } from 'react'
-import Form from './Form'
-import { CartContext } from '../../context/CartContext'
+import { Link } from 'react-router-dom'
 import { addDoc,collection } from 'firebase/firestore' 
 import db from '../../db/db'
+import Form from './Form'
+import { CartContext } from '../../context/CartContext'
 import Swal from 'sweetalert2'
-import { Link } from 'react-router-dom'
+import "./Checkout.css"
 
 const Checkout = () => {
 
@@ -52,18 +53,22 @@ const Checkout = () => {
    }
   return (
     
-  <div>
+  <div className='main-order-container'>
     {
         idOrden ? (
-            <div>
-              <h2>
+            <div className="order-container">
+              <h1>
                Se ha generado la orden!!! 
-              </h2>
-              <p>Detalle de orden:{ idOrden }</p>
+              </h1>
+              <img src="https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw1415b36f/images/funko/7487-1.png?sw=800&sh=800" alt="" />
+              <h2>Detalle de orden:</h2>
+              <p>{ idOrden }</p>
               <button><Link to="/">Ver mas productos</Link></button>
             </div>
         ):(
-            <Form datosForm = {datosForm} guardarDatosInput={guardarDatosInput} enviarOrden={enviarOrden} />
+          
+             <Form datosForm = {datosForm} guardarDatosInput={guardarDatosInput} enviarOrden={enviarOrden} />
+         
         )
     }
   </div>

@@ -1,0 +1,121 @@
+
+
+
+.order-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/84/94/comic-speech-bubble-rectangular-shape-pop-art-vector-32648494.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+.order-container h1 {
+    margin: 3rem;
+}
+.order-container p {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration:underline;
+}
+.order-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: fit-content;
+    margin: 2rem 2rem;
+    width: 20rem;
+}
+.order-container button:hover{
+    background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+}
+.order-container button:active {
+    background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+
+}
+.order-container a{
+    text-decoration: none;
+        color: black;
+}
+.order-container img{
+    width: 30rem;
+}
+.main-order-container{
+    background-image: url("https://pbs.twimg.com/media/DbFJqqDWAAEt3nC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 8rem;
+}
+.form-container input{
+    width: 15rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.form-container label{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 5px black;
+    color: ghostwhite;
+}
+.form-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: fit-content;
+    margin: 2rem 2rem;
+    width: 12rem;
+}
+.form-container button:hover {
+    background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+}
+.form-container button:active{
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+
+}

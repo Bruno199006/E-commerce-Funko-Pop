@@ -1,7 +1,7 @@
 
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import "./Item.css"
-import { useState } from "react"
 
 const Item = ({producto}) =>{
     const [zoom,setZoom] = useState(false)

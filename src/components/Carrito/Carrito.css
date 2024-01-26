@@ -122,6 +122,10 @@
     font-weight: bolder;
     flex-wrap: wrap;
   }
+  .base-carrito a{
+    color: black;
+    text-decoration: none;
+  }
   .carrito-vacio{
     background-image: url("https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-FunkoUS-Library/default/dw34674b20/images/funko/blog/20190625_YouTube.jpg?sfrm=jpg");
     width: 100%;

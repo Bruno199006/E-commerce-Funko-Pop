@@ -1,10 +1,12 @@
 import React from 'react'
 
+import "./Checkout.css"
+
 const Form = ({ datosForm,guardarDatosInput,enviarOrden }) => {
   return (
     
         
-    <form onSubmit={enviarOrden}>
+    <form className='form-container' onSubmit={enviarOrden}>
         <label htmlFor="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" value={datosForm.nombre} onChange={guardarDatosInput} required />
 
