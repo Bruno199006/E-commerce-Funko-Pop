@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { doc,getDoc } from "firebase/firestore"
+import { Link } from "react-router-dom"
 import db from "../../db/db"
 import ItemDetail from "../ItemDetail/ItemDetail"
+import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () =>{
     
@@ -28,7 +30,11 @@ const ItemDetailContainer = () =>{
       <div>
         {
           productoExiste ? (
-            <div>El producto no existe</div>
+            <div className="producto-no-existe">
+              <div>El producto no existe</div>
+            <button><Link to="/">Volver al home</Link></button>
+             </div>
+            
           ):(
             <ItemDetail producto = {producto}/>
           )
