@@ -30,7 +30,6 @@ const Carrito = () =>{
               <p>Precio Unidad $ {producto.precio}</p>
               <button onClick={ ()=> borrarProducto(producto.id) }>Eliminar producto</button>
             </li>
-
           )) 
         }
       </ul>
